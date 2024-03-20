@@ -7,7 +7,6 @@ arr = [1, 2, 3, 4, 5, 6, 7, 8, 9]
 # data=np.random.normal(size=(100,))
 data = np.array(arr)
 
-# 计算5个值
 # 计算第25、50和75百分位数
 p25 = np.percentile(data, 25)
 p50 = np.percentile(data, 50)
